@@ -74,7 +74,13 @@
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+### Función del archivo .gitignore
+El archivo `.gitignore` permite especificar patrones de nombres de archivos y carpetas que Git debe ignorar. Es fundamental para mantener el repositorio limpio de archivos temporales, logs de errores o datos sensibles.
+
+**Evidencia de funcionamiento:**
+Como se muestra en la captura de pantalla, al ejecutar `git status`, Git solo reconoce el archivo `evidencia.txt`, mientras que los archivos `.log` y las carpetas `temp/` y `doc/` son ignorados exitosamente.
+
+![Evidencia .gitignore](images/pregunta2.png)
 
 ---
 

@@ -110,8 +110,24 @@ Como se muestra en la captura de pantalla, al ejecutar `git status`, Git solo re
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos utilizados:
+1. `git flow init`: Inicializa la estructura de ramas (main y develop).
+2. `git flow feature start ingresar-encabezado`: Crea y se mueve a una rama específica para la tarea.
+3. `git commit -m "..."`: Registra el avance de los datos personales.
+4. `git flow feature finish ingresar-encabezado`: Fusiona la rama en `develop` y la elimina localmente.
 
+### Descripción del proceso:
+El proceso comenzó con la inicialización de Git Flow para establecer un orden jerárquico. Se trabajó en una rama aislada (`feature`) para no afectar el código estable mientras se editaba el encabezado con mis datos personales. Finalmente, se cerró la rama integrando los cambios en la rama de desarrollo (`develop`).
+
+### Reflexión sobre Git Flow:
+Git Flow es una metodología robusta que facilita la colaboración masiva. Sus ventajas principales son:
+* **Orden:** Mantiene la rama `main` siempre limpia y lista para producción.
+* **Paralelismo:** Permite que varios desarrolladores trabajen en distintas funciones simultáneamente sin interferir entre sí.
+* **Trazabilidad:** Facilita la gestión de versiones y correcciones urgentes mediante ramas específicas de `hotfix` y `release`.
+**Evidencia del flujo de trabajo (Git Flow):**
+Se puede observar en el historial de commits cómo la rama `feature/ingresar-encabezado` nace de `develop` y se integra nuevamente tras completar la tarea.
+
+![Evidencia Git Flow](images/pregunta3.png)
 ---
 
 ## Pregunta 4 (2 puntos)

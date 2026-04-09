@@ -167,9 +167,12 @@ Se puede observar en el historial de commits cómo la rama `feature/ingresar-enc
 * Se realizaron interacciones mediante comentarios para solicitar y agregar las respuestas faltantes.
 * Finalmente, se aprobó el PR y se realizó el merge.
 
-**Número de Pull Request:** #[Número de tu PR]
-**Enlace:** [Pega aquí el enlace de tu PR en GitHub]
+**Número de Pull Request:** #[1]
+**Enlace:** develop
+#### Evidencia del Pull Request:
+En la siguiente captura se observa el flujo de revisión mediante comentarios y la confirmación del Merge exitoso de la rama `develop` hacia `main`.
 
+![Evidencia Pull Request](images/pregunta4.png)
 ---
 
 ## Pregunta 5 (2 puntos)

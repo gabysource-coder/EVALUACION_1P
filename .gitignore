@@ -1,0 +1,9 @@
+# Ignorar todos los archivos de log
+*.log
+
+# Ignorar la carpeta temporal
+temp/
+
+# Ignorar archivos específicos en la carpeta doc
+doc/*.md
+doc/*.txt

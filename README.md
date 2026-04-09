@@ -154,9 +154,21 @@ Se puede observar en el historial de commits cómo la rama `feature/ingresar-enc
 - Un resumen del procedimiento realizado con las respectivas preguntas y capturas.
 - El número y enlace al pull request.
 
-**📝 Respuesta:**
+### 📝 Respuesta Pregunta 4
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+#### Parte Teórica:
+1. **¿Qué es un Pull Request (PR)?** Es una petición que hace un desarrollador para que sus cambios (ubicados en una rama como `develop`) sean revisados e integrados en otra rama (como `main`). Su función es facilitar la colaboración y el control de calidad.
+2. **Importancia de la revisión:** Permite detectar errores antes de que lleguen a producción, asegura que el código siga los estándares del proyecto y facilita el intercambio de conocimientos entre el equipo.
+3. **Validaciones comunes:** Se revisa la lógica del código, la legibilidad, que no rompa funcionalidades existentes, que cumpla con los requisitos del Issue y que la documentación esté actualizada.
+
+#### Resumen del procedimiento práctico:
+* Se trabajó sobre la rama `develop`.
+* Se creó un Pull Request hacia `main` titulado "Pregunta 4 - [Tu Apellido] [Tu Nombre]".
+* Se realizaron interacciones mediante comentarios para solicitar y agregar las respuestas faltantes.
+* Finalmente, se aprobó el PR y se realizó el merge.
+
+**Número de Pull Request:** #[Número de tu PR]
+**Enlace:** [Pega aquí el enlace de tu PR en GitHub]
 
 ---
 

@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad Técnica de Ambato 
+## Facultad de Ingenieria de Sistemas, Electrónica e Industrial  
+### Carrera de Software  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Gabriela Nuñez
+**Fecha:** 08/04/2026 
 
 ---
 
@@ -110,8 +110,24 @@ Como se muestra en la captura de pantalla, al ejecutar `git status`, Git solo re
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+### Comandos utilizados:
+1. `git flow init`: Inicializa la estructura de ramas (main y develop).
+2. `git flow feature start ingresar-encabezado`: Crea y se mueve a una rama específica para la tarea.
+3. `git commit -m "..."`: Registra el avance de los datos personales.
+4. `git flow feature finish ingresar-encabezado`: Fusiona la rama en `develop` y la elimina localmente.
 
+### Descripción del proceso:
+El proceso comenzó con la inicialización de Git Flow para establecer un orden jerárquico. Se trabajó en una rama aislada (`feature`) para no afectar el código estable mientras se editaba el encabezado con mis datos personales. Finalmente, se cerró la rama integrando los cambios en la rama de desarrollo (`develop`).
+
+### Reflexión sobre Git Flow:
+Git Flow es una metodología robusta que facilita la colaboración masiva. Sus ventajas principales son:
+* **Orden:** Mantiene la rama `main` siempre limpia y lista para producción.
+* **Paralelismo:** Permite que varios desarrolladores trabajen en distintas funciones simultáneamente sin interferir entre sí.
+* **Trazabilidad:** Facilita la gestión de versiones y correcciones urgentes mediante ramas específicas de `hotfix` y `release`.
+**Evidencia del flujo de trabajo (Git Flow):**
+Se puede observar en el historial de commits cómo la rama `feature/ingresar-encabezado` nace de `develop` y se integra nuevamente tras completar la tarea.
+
+![Evidencia Git Flow](images/pregunta3.png)
 ---
 
 ## Pregunta 4 (2 puntos)
@@ -138,10 +154,25 @@ Como se muestra en la captura de pantalla, al ejecutar `git status`, Git solo re
 - Un resumen del procedimiento realizado con las respectivas preguntas y capturas.
 - El número y enlace al pull request.
 
-**📝 Respuesta:**
+### 📝 Respuesta Pregunta 4
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+#### Parte Teórica:
+1. **¿Qué es un Pull Request (PR)?** Es una petición que hace un desarrollador para que sus cambios (ubicados en una rama como `develop`) sean revisados e integrados en otra rama (como `main`). Su función es facilitar la colaboración y el control de calidad.
+2. **Importancia de la revisión:** Permite detectar errores antes de que lleguen a producción, asegura que el código siga los estándares del proyecto y facilita el intercambio de conocimientos entre el equipo.
+3. **Validaciones comunes:** Se revisa la lógica del código, la legibilidad, que no rompa funcionalidades existentes, que cumpla con los requisitos del Issue y que la documentación esté actualizada.
 
+#### Resumen del procedimiento práctico:
+* Se trabajó sobre la rama `develop`.
+* Se creó un Pull Request hacia `main` titulado "Pregunta 4 - Gabriela Nuñez".
+* Se realizaron interacciones mediante comentarios para solicitar y agregar las respuestas faltantes.
+* Finalmente, se aprobó el PR y se realizó el merge.
+
+**Número de Pull Request:** #[1]
+**Enlace:** develop
+#### Evidencia del Pull Request:
+En la siguiente captura se observa el flujo de revisión mediante comentarios y la confirmación del Merge exitoso de la rama `develop` hacia `main`.
+
+![Evidencia Pull Request](images/pregunta4.png)
 ---
 
 ## Pregunta 5 (2 puntos)

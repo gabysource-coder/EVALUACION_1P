@@ -163,7 +163,7 @@ Se puede observar en el historial de commits cómo la rama `feature/ingresar-enc
 
 #### Resumen del procedimiento práctico:
 * Se trabajó sobre la rama `develop`.
-* Se creó un Pull Request hacia `main` titulado "Pregunta 4 - [Tu Apellido] [Tu Nombre]".
+* Se creó un Pull Request hacia `main` titulado "Pregunta 4 - Gabriela Nuñez".
 * Se realizaron interacciones mediante comentarios para solicitar y agregar las respuestas faltantes.
 * Finalmente, se aprobó el PR y se realizó el merge.
 
